@@ -11,13 +11,14 @@ body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    max-width: 1640px;
+    max-width: 1440px;
     height: 100vh;
     background-color: hsl(0, 0%, 81%);
     margin: 0 auto;
 }
 
 #grid {
+    position: absolute;
     display: grid;
     width: 95%;
     height: 100vh;
@@ -34,6 +35,7 @@ body {
     border-radius: 10px;
     padding: 30px;
     margin-top: 2%;
+    margin-left: -1%;
 }
 
 .dc .imgdc {
@@ -88,7 +90,7 @@ body {
     border-radius: 10px;
     padding: 30px;    
     margin-top: 2%;
-    margin-left: 49.5%;
+    margin-left: 50.1%;
 }
 
 .jw .imgjw {
@@ -126,11 +128,11 @@ body {
     background-color: white;
     color: hsl(219, 29%, 14%);
     width: 20em;
-    height: 93vh;
+    height: 91vh;
     border-radius: 10px;
     padding: 30px;
     margin-top: 2%;
-    margin-left: 75%;
+    margin-left: 76%;
 }
 
 .kw .imgkw {
@@ -172,7 +174,8 @@ body {
     height: 44vh;
     border-radius: 10px;
     padding: 30px;
-    margin-top: 27.3%;
+    margin-top: 27.7%;
+    margin-left: -1%;
 }
 
 .jh .imgjh {
@@ -214,8 +217,8 @@ body {
     height: 44vh;
     border-radius: 10px;
     padding: 30px;
-    margin-top: 27.3%;
-    margin-left: 24%
+    margin-top: 27.7%;
+    margin-left: 23.4%
 }
 
 .pa .imgpa {
