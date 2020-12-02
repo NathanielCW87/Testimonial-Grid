@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+body {
+    display: flex;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    max-width: 1640px;
+    height: 100vh;
+    background-color: hsl(0, 0%, 81%);
+    margin: 0 auto;
+}
+
+#grid {
+    display: grid;
+    width: 95%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+/*DANIEL CLIFFORD*/
+.dc {
+    position: absolute;
+    background-color: hsl(263, 55%, 52%);
+    color: white;
+    width: 47em;
+    height: 45vh;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 2%;
+}
+
+.dc .imgdc {
+    border-radius: 30px;
+}
+
+.dc .who {
+    position: relative;
+    margin-left: 14%;
+    margin-top: -7%;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.dc .who span {
+    color:rgba(255, 255, 255, 0.589);
+    font-weight: 500;
+}
+
+.dc .img {
+    position: relative;
+    text-align: right;
+    margin-top: -10.7%;
+    margin-right: 10%;
+}
+
+.img img {
+    width: 155px;
+    height: 150px;
+}
+
+.dc h2 {
+    position: relative;
+    z-index: 1;
+    margin-top: -5%;
+}
+
+.dc .quote {
+    position: relative;
+    color:rgba(255, 255, 255, 0.589);
+    padding-top: 25px;
+    line-height: 1.5em;
+}
+
+/*JONATHAN WALTERS*/
+.jw {
+    position: absolute;
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+    width: 23em;
+    height: 45vh;
+    border-radius: 10px;
+    padding: 30px;    
+    margin-top: 2%;
+    margin-left: 49.5%;
+}
+
+.jw .imgjw {
+    border-radius: 30px;
+}
+
+.jw .who {
+    position: relative;
+    margin-left: 33%;
+    margin-top: -18%;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.jw .who span {
+    color:rgba(255, 255, 255, 0.589);
+    font-weight: 500;
+}
+
+.jw h2 {
+    position: relative;
+    margin-top: 17%;
+}
+
+.jw .quote {
+    position: relative;
+    color:rgba(255, 255, 255, 0.589);
+    padding-top: 25px;
+    line-height: 1.5em;
+}
+
+/*KIRA WHITTLE*/
+.kw {
+    position: absolute;
+    background-color: white;
+    color: hsl(219, 29%, 14%);
+    width: 20em;
+    height: 93vh;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 2%;
+    margin-left: 75%;
+}
+
+.kw .imgkw {
+    border-radius: 30px;
+}
+
+.kw .who {
+    position: relative;
+    margin-left: 38%;
+    margin-top: -18%;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.kw .who span {
+    color: hsla(217, 30%, 14%, 0.651);
+    font-weight: 500;
+}
+
+.kw h2 {
+    position: relative;
+    margin-top: 17%;
+}
+
+.kw .quote {
+    position: relative;
+    color: hsla(217, 30%, 14%, 0.651);
+    padding-top: 25px;
+    line-height: 1.5em;
+}
+
+/*JEANETTE HARMON*/
+
+.jh {
+    position: absolute;
+    background-color: white;
+    color: hsl(219, 29%, 14%);
+    width:21.8em;
+    height: 44vh;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 27.3%;
+}
+
+.jh .imgjh {
+    border-radius: 30px;
+}
+
+.jh .who {
+    position: relative;
+    margin-left: 35%;
+    margin-top: -18%;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.jh .who span {
+    color: hsla(217, 30%, 14%, 0.651);
+    font-weight: 500;
+}
+
+.jh h2 {
+    position: relative;
+    margin-top: 17%;
+    padding-right: 3px;
+}
+
+.jh .quote {
+    position: relative;
+    color: hsla(217, 30%, 14%, 0.651);
+    padding-top: 25px;
+    line-height: 1.5em;
+}
+
+/*PATRICK ABRAMS*/
+.pa {
+    position: absolute;
+    background-color: hsl(219, 29%, 14%);
+    color: white;
+    width:48.5em;
+    height: 44vh;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 27.3%;
+    margin-left: 24%
+}
+
+.pa .imgpa {
+    border-radius: 30px;
+}
+
+.pa .who {
+    position: relative;
+    margin-left: 15%;
+    margin-top: -7%;
+}
+
+.pa .who span {
+    color:rgba(255, 255, 255, 0.589);
+    font-weight: 500;
+}
+
+.pa h2 {
+    position: relative;
+    margin-top: 6%;
+    padding-right: 3px;
+    line-height: 1.2em;
+}
+
+.pa .quote {
+    position: relative;
+    color: rgba(255, 255, 255, 0.589);
+    padding-top: 25px;
+    line-height: 1.5em;
+}
